@@ -11,6 +11,10 @@
   </head>
 
   <body>
+  <div class="links">
+    <%= link_to 'Home', kittens_path %>
+    <%= link_to 'New Kitten', new_kitten_path, class: 'link' %>
+  </div>
     <%= yield %>
   </body>
 </html>
